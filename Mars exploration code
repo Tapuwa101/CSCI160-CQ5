@@ -23,7 +23,7 @@ class Result {
     int total = 0;
         String sos = "SOS";
         
-        // comoute the differnet forms of eth SOS that could possible b sent out. 
+        // compute the different forms of the SOS that could possibly be sent out. 
         for(int i = 0; i < s.length()/3; i++) {
             String sent = s.substring(i*3,(i+1)*3);
             if(!sent.equals(sos))
